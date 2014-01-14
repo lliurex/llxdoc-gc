@@ -45,6 +45,7 @@ help:
 	@echo "  pseudoxml  to make pseudoxml-XML files for display purposes"
 	@echo "  linkcheck  to check all external links for integrity"
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
+	@echo "  github     to build html target and commit to github (and gh-pages branch)"
 
 clean:
 	rm -rf $(BUILDDIR)/*
@@ -175,3 +176,7 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+github:	html
+	ghp-import -n -m "Syncing html build" $(BUILDDIR)/html
+	git push --all
