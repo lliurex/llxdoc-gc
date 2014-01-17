@@ -32,7 +32,7 @@ Trabaja con el código
 
 Un programador con cualquier nivel de experiencia puede ayudar con el código del proyecto. No pienses que tienes que ser un genio del código para hacer auténticas contribuciones a LliureX.
 
-Si ya haces tus propias correcciones, comentarios de código, pruebas y/o parches puedes hacérnoslos llegar por diferentes medios. Si tienes interés en trabajar con alguna parte del código de LliureX, podemos proporcionar un repositorio en http://github.com/lliurex. De esa manera podrás solicitar la incorporación de cambios en el código de una manera sencilla. Ahora mismo tienes accesible todo nuestro código desde nuestro repositorio de subversion (o mejor desde TRAC).
+Si ya haces tus propias correcciones, comentarios de código, pruebas y/o parches puedes hacérnoslos llegar por diferentes medios. Si tienes interés en trabajar con alguna parte del código de LliureX, podemos proporcionar un repositorio en http://github.com/lliurex. De esa manera podrás solicitar la incorporación de cambios en el código de una manera sencilla. Ahora mismo tienes accesible todo nuestro código desde nuestro repositorio de subversion (o mejor desde `TRAC <https://trac.lliurex.net/>`_).
 
 Uno de nuestros objetivos es crear una web con información sobre desarrollo para que sea mucho más fácil para las personas con conocimientos de programación y de administración de sistemas aportar sus cambios y propuestas. Si eres profesor de ciclos formativos de la especialidad de informática y quieres colaborar (tú y/o tus alumnos) al proyecto ¡contáctanos!
 
