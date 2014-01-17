@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Colaboración mediante GitHub &mdash; Guía de Colaboración con LliureX v 0.1</title>
+    
+    <link rel="stylesheet" href="_static/solar.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Guía de Colaboración con LliureX v 0.1" href="index.html" />
+    <link rel="next" title="Créditos y Licencia" href="credits.html" />
+    <link rel="prev" title="Introducción" href="intro.html" /><link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<link href="_static/solarized-dark.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="credits.html" title="Créditos y Licencia"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introducción"
+             accesskey="P">anterior</a> |</li>
+        <li><a href="index.html">Guía de Colaboración con LliureX</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/lliurex.png" alt="Logo"/>
+            </a></p>
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="intro.html"
+                        title="capítulo anterior">Introducción</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="credits.html"
+                        title="próximo capítulo">Créditos y Licencia</a></p>
+  <h3>Esta página</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/github.txt"
+           rel="nofollow">Mostrar el código</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Introduzca los términos de búsqueda o un nombre de módulo, clase o función.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="colaboracion-mediante-github">
+<h1>Colaboración mediante GitHub<a class="headerlink" href="#colaboracion-mediante-github" title="Enlazar permanentemente con este título">¶</a></h1>
+<p><a class="reference external" href="http://github.com/">GitHub</a> es la red social de desarrolladores más popular. En diciembre de 2013 superaron los 10 millones de repositorios (la inmensa mayoría de código) <a class="footnote-reference" href="#id2" id="id1">[1]</a>.
+Si deseas aportar correcciones de errores a código o documentación necesitarás lo siguiente:</p>
+<ul class="simple">
+<li>Una cuenta de usuario en <a class="reference external" href="http://github.com/">GitHub</a>.</li>
+<li><a class="reference external" href="http://codehero.co/git-desde-cero-instalacion-configuracion-y-comandos-basicos/">Conocimientos básicos del sistema de control de versiones Git</a> (aunque muchas de las operaciones se pueden hacer por la interfaz web de GitHub).</li>
+</ul>
+<p>Si ya cumples los anteriores requisitos, te damos una simple receta para aportar tus correcciones:</p>
+<ul class="simple">
+<li>Cuando hayas entrado en tu cuenta de GitHub, accede a la página del repositorio al que quieres aportar cambios.</li>
+<li>Haz un <strong>fork</strong> (se creará una copia del repositorio original en tu cuenta)</li>
+<li>Clona el repositorio en tu ordenador</li>
+<li>Realiza los cambios en una rama local (si procede)</li>
+<li>Haz un <strong>push</strong> de tu rama al <strong>fork</strong> de tu cuenta</li>
+<li>Utiliza el visor de diferencias para crear un <strong>pull request</strong></li>
+</ul>
+<p>A partir de ese momento, sólo cabe esperar a que los miembros del proyecto hagan las pruebas pertinentes con tus cambios y los acepten, rechacen o soliciten modificaciones (todo esto mediante la interfaz de GitHub).</p>
+<p>Si tu colaboración es continuada, la manera de seguir las actualizaciones del repositorio original es la siguiente:</p>
+<ul class="simple">
+<li>En tu copia local, añade como remoto el repositorio <strong>upstream</strong> (original):</li>
+<li>Cuando quieras incorporar los cambios a la rama <strong>master</strong> deberás hacer:</li>
+</ul>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Ver <a class="reference external" href="https://github.com/blog/1724-10-million-repositories">&#8220;10 Million repositories&#8221;</a></td></tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="credits.html" title="Créditos y Licencia"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introducción"
+             >anterior</a> |</li>
+        <li><a href="index.html">Guía de Colaboración con LliureX</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES">Licencia CC BY-NC-SA 3.0</a> 2014, Equipo LliureX.
+    Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2. Tema por <a href="http://github.com/vkvn">vkvn</a>
+    </div>
+  </body>
+</html>

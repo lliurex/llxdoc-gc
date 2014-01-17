@@ -7,4 +7,5 @@ Guía de Colaboración con LliureX
    :maxdepth: 2
 
    intro
+   github
    credits
