@@ -1,11 +1,11 @@
 Colaboración mediante GitHub
 ============================
 
-GitHub_ es la red social de desarrolladores más popular. En diciembre de 2013 superaron los 10 millones de repositorios (la inmensa mayoría de código)[#]_. 
+GitHub_ es la red social de desarrolladores más popular. En diciembre de 2013 superaron los 10 millones de repositorios (la inmensa mayoría de código) [#]_. 
 Si deseas aportar correcciones de errores a código o documentación necesitarás lo siguiente:
 
 * Una cuenta de usuario en GitHub_.
-* `Conocimientos básicos del sistema de control de versiones Git`__ (aunque muchas de las operaciones se pueden hacer por la interfaz web de GitHub).
+* `Conocimientos básicos del sistema de control de versiones Git <http://codehero.co/git-desde-cero-instalacion-configuracion-y-comandos-basicos/>`_ (aunque muchas de las operaciones se pueden hacer por la interfaz web de GitHub).
 
 Si ya cumples los anteriores requisitos, te damos una simple receta para aportar tus correcciones:
 
@@ -27,4 +27,3 @@ Si tu colaboración es continuada, la manera de seguir las actualizaciones del r
 .. [#] Ver `"10 Million repositories" <https://github.com/blog/1724-10-million-repositories>`_
 
 .. _GitHub: http://github.com/
-.. _Git: http://codehero.co/git-desde-cero-instalacion-configuracion-y-comandos-basicos/
